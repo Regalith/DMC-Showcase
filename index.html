@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Debug My Code</title>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" ></script> -->
+    <script src="./js/jquery-2.1.4.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+
+    <!-- Optional theme -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Custom Elements -->
+    <link rel="stylesheet" href="./css/extras.css">
+    <link rel="stylesheet" href="./css/timeline.css">
+
+</head>
+<body>
+     <nav class="navbar navbar-default navbar-custom">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo">
+                <img src="./img/Logo.png" class="img-responsive"/>
+            </a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#howitworks">How It Works</a></li>
+                  <li><a href="#features">Features</a></li>
+                  <li><a href="#timeline">Developement Timeline</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
+              </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+     <div class="jumbotron-bg"></div>
+     <div class="jumbotron special">
+          <div class="container container-custom col-md-6 col-md-offset-3">
+              <h1 class="text-center">Re-thinking Online Support</h1>
+              <p class="text-center">...</p>
+              <p class="text-center"><a class="btn btn-default btn-lg" href="#howitworks" role="button">Learn more</a></p>
+          </div>
+    </div>
+    <div class="container flex" id="howitworks">
+        <h1 class="text-center" style="font-size: 305%;"> How it works</h1>
+        <h4 class="text-center title-details"> A community-driven question and answer platform targeted towards programmers. </h4>
+        <p class="details" style="font-size: 145%; padding-bottom:60px;">
+            Debug My Code is a fully comprehensive code debugging platform designed to give users all the tools necessary to both ask tough programming questions
+            and answer them in more thorough ways compared standard question and answer sites.  By packaging in a bounty system, instant messaging, forums,
+            online compiling, and web-based remote desktop support into one responsive web app, we provide a faster and more personalized debugging experience
+            compared to any other system online.
+        </p>
+        <div class="row vertical-align">
+            <div class="col-xs-3">
+                <div class="block-center">
+                    <img class="center-block" src="./img/money.png"/>
+                    <h3 class="text-center">Ask</h3>
+                    <p class="center-block details">A user asks a question with an optional monetary bounty, which can be collected upon someone correctly answering it </p>
+                </div>
+            </div>
+            <div class="col-xs-1">
+                <img src="./img/arrow.png"/>
+            </div>
+            <div class="col-xs-3">
+                <div class="block-center">
+                    <img class="center-block" src="./img/reply.png"/>
+                    <h3 class="text-center">Answer</h3>
+                    <p class="center-block details">Other users can reply to the question and directly leave answers, or subscribe to the question to offer direct assistance</p>
+                </div>
+            </div>
+            <div class="col-xs-1">
+                <img src="./img/arrow.png"/>
+            </div>
+            <div class="col-xs-3">
+                <div class="block-center">
+                    <img class="center-block" src="./img/pc.png"/>
+                    <h3 class="text-center">Direct Assistance</h3>
+                    <p class="center-block details">Once users subscribe to a question, they are given a multitude of tools to help the asker, including
+                    online remote desktop support, in-site instant messaging, and online compiling</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="off-white">
+        <div class="container flex" id="features">
+            <h1 class="text-center" style="font-size: 305%;"> Features</h1>
+            <h4 class="text-center title-details"> A community-driven question and answer platform targeted towards programmers. </h4>
+
+            <div class="row vertical-align">
+                <div class="col-xs-4">
+                    <div class="block-center">
+                        <img class="center-block" height="200" width="200" src="./img/react.png"/>
+                        <h3 class="text-center">React</h3>
+                        <p class="center-block details">A fully responsive isometric web application with on Facebook's React.js.  It's built in features allow for faster page loads
+                            and more dynamic web pages.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="block-center">
+                        <img class="center-block" height="200" width="200" src="./img/guac.png"/>
+                        <h3 class="text-center">Guacamole RDP</h3>
+                        <p class="center-block details">HTML 5 Clientless Remote Desktop capabilities integrated right into the website.  Users have the capability of directly assisting others with
+                        problems requiring a more direct approach, without ever leaving the website.</p>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="block-center">
+                        <img class="center-block" height="200" width="200" src="./img/ace.png"/>
+                        <h3 class="text-center">Online Compiling</h3>
+                        <p class="center-block details">Users can compile and edit code inside the webpage using the Ace web editor and our own cloud compilers.</p>
+                    </div>
+                </div>
+            </div>
+             <div class="row vertical-align">
+                <div class="col-xs-4">
+                    <div class="block-center">
+                        <img class="center-block" height="200" width="200" src="./img/qa.png"/>
+                        <h3 class="text-center">Question and Answer System</h3>
+                        <p class="center-block details">A Standard answer hub system, but with extra features to seamlessly hook into the other support tools offered
+                            in the web application.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="block-center">
+                        <img class="center-block" height="200" width="200" src="./img/bounty.png"/>
+                        <h3 class="text-center">Question Bounties</h3>
+                        <p class="center-block details">Users can place monetary sums on questions to be collected by others upon a successful answer.</p>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="block-center">
+                        <img class="center-block" height="200" width="200" src="./img/im.png"/>
+                        <h3 class="text-center">Instant Messaging and Push Notifications</h3>
+                        <p class="center-block details">Through the use of React and Socket.IO, users gain real time communication and notification tools for a more responsive webpage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-timeline" id="timeline">
+        <h1 class="text-center" style="font-size: 305%;"> Development Timeline</h1>
+        <h4 class="text-center title-details"> A community-driven question and answer platform targeted towards programmers. </h4>
+        <ol class="timeline timeline-row">
+            <li class="timeline__step done">
+                <input class="timeline__step-radio" id="trigger1{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger1{{identifier}}">
+                    <span class="timeline__step-content">
+                        November 2015</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    Django Rest Framework Development</span>
+
+                <i class="timeline__step-marker">1</i>
+            </li>
+            <li class="timeline__step done">
+                <input class="timeline__step-radio" id="trigger2{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger2{{identifier}}">
+                    <span class="timeline__step-content">
+                        November 2015</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    JSon Web-Token Authentication</span>
+
+                <i class="timeline__step-marker">2</i>
+            </li>
+            <li class="timeline__step done">
+                <input class="timeline__step-radio" id="trigger3{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger3{{identifier}}">
+                    <span class="timeline__step-content">
+                        December 2015</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    Gulp Build Process</span>
+
+                <i class="timeline__step-marker">3</i>
+            </li>
+            <li class="timeline__step done">
+                <input class="timeline__step-radio" id="trigger4{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger4{{identifier}}">
+                    <span class="timeline__step-content">
+                        December 2015</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    React.js/Flux Boiler Plate</span>
+
+                <i class="timeline__step-marker">4</i>
+            </li>
+        </ol>
+        <ol class="timeline timeline-row">
+            <li class="timeline__step done">
+                <input class="timeline__step-radio" id="trigger5{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger5{{identifier}}">
+                    <span class="timeline__step-content">
+                        January 2016</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    React-Router/Browserify Integration</span>
+
+                <i class="timeline__step-marker">5</i>
+            </li>
+            <li class="timeline__step">
+                <input class="timeline__step-radio" id="trigger6{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger6{{identifier}}">
+                    <span class="timeline__step-content">
+                        February 2015</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    NodeJS Migration/Twisted Implementation</span>
+
+                <i class="timeline__step-marker">6</i>
+            </li>
+            <li class="timeline__step">
+                <input class="timeline__step-radio" id="trigger7{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger7{{identifier}}">
+                    <span class="timeline__step-content">
+                        15 May 2013</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    Step 3</span>
+
+                <i class="timeline__step-marker">7</i>
+            </li>
+            <li class="timeline__step">
+                <input class="timeline__step-radio" id="trigger8{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger8{{identifier}}">
+                    <span class="timeline__step-content">
+                        February 2016</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    Web Socket Integration</span>
+
+                <i class="timeline__step-marker">8</i>
+            </li>
+        </ol>
+        <ol class="timeline timeline-row">
+            <li class="timeline__step">
+                <input class="timeline__step-radio" id="trigger9{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger9{{identifier}}">
+                    <span class="timeline__step-content">
+                        March 2016</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    Guacamole Integration</span>
+
+                <i class="timeline__step-marker">9</i>
+            </li>
+            <li class="timeline__step">
+                <input class="timeline__step-radio" id="trigger10{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger10{{identifier}}">
+                    <span class="timeline__step-content">
+                        March 2015</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    Ace/Online compiling</span>
+
+                <i class="timeline__step-marker">10</i>
+            </li>
+            <li class="timeline__step">
+                <input class="timeline__step-radio" id="trigger11{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger11{{identifier}}">
+                    <span class="timeline__step-content">
+                        April 2016</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    Beta Testing</span>
+
+                <i class="timeline__step-marker">11</i>
+            </li>
+            <li class="timeline__step">
+                <input class="timeline__step-radio" id="trigger12{{identifier}}" name="trigger{{identifier}}" type="radio">
+
+                <label class="timeline__step-label" for="trigger12{{identifier}}">
+                    <span class="timeline__step-content">
+                        May 2016</span>
+                </label>
+
+                <span class="timeline__step-title">
+                    Deployment</span>
+
+                <i class="timeline__step-marker">12</i>
+            </li>
+        </ol>
+    </div>
+    <div class="off-white">
+        <div class="container" id="contact">
+            <h1 class="text-center" style="font-size: 305%;"> Contact us</h1>
+            <h4 class="text-center title-details">Want to learn more?  Subscribe to our mailing list. </h4>
+            <form class="form-horizontal">
+                  <div class="form-group">
+                        <label for="inputName" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                  </div>
+                  <div class="form-group">
+                        <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Sign up</button>
+                    </div>
+                  </div>
+            </form>
+        </div>
+    </div>
+    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+</body>
+<script>
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 500);
+        return false;
+    });
+</script>
+</html>
+
